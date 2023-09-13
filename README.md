@@ -1,0 +1,1 @@
+Welcome to our ecommerce site dedicated to selling Nike Jordan Sneakers and Dunks! This document serves as a basic guide to understanding and using our website. Please read carefully to make the most of your shopping experience.
