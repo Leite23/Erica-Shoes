@@ -3,7 +3,7 @@ import {
   lerLocalStorage,
   apagarDoLocalStorage,
   salvarLocalStorage,
-} from "./src/utilidades";
+} from "../../src/components/utilidades";
 
 function desenharProdutosCheckout() {
   const idsProdutoCarrinhoComQuantidade = lerLocalStorage("carrinho") ?? {};
@@ -16,8 +16,8 @@ function desenharProdutosCheckout() {
   }
 }
 
-function finalizarCompra(evento) {
-  evento.preventDefault();
+function finalizarCompra(e) {
+  e.preventDefault();
   const idsProdutoCarrinhoComQuantidade = lerLocalStorage("carrinho") ?? {};
   if (Object.keys(idsProdutoCarrinhoComQuantidade).length === 0) {
     return;

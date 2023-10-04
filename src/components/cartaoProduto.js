@@ -1,5 +1,5 @@
-import { catalogo } from "../src/utilidades";
-import { adicionarAoCarrinho } from "../src/menuCarrinho";
+import { catalogo } from "../../src/components/utilidades";
+import { adicionarAoCarrinho } from "../../src/components/menuCarrinho";
 
 export function renderizarCatalogo() {
   for (const produtoCatalogo of catalogo) {
@@ -7,7 +7,7 @@ export function renderizarCatalogo() {
       produtoCatalogo.feminino ? "feminino" : "masculino"
     }' id="card-produto-${produtoCatalogo.id}">
         <img
-        src="./assets/img/${produtoCatalogo.imagem}"
+        src="../public/assets/img/${produtoCatalogo.imagem}"
         alt="Produto 1 do Magazine Hashtag."
         class='group-hover:scale-110 duration-300 my-3 rounded-lg'
         />
