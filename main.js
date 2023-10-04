@@ -1,5 +1,5 @@
 import { renderizarCatalogo } from "./src/cartaoProduto";
-import { inicializarFiltros } from "/src/filtrosCatalogo";
+import { inicializarFiltros } from "./src/filtrosCatalogo";
 import {
   atualizarPrecoCarrinho,
   inicializarCarrinho,
