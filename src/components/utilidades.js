@@ -104,7 +104,7 @@ for (const articleClass of articleClasses) {
 
 const cartaoProdutoCarrinho = `
   <img
-    src="./assets/img/${produto.imagem}"
+    src="../../public/assets/img/${produto.imagem}"
     alt="Carrinho: ${produto.nome}"
     class="h-24 rounded-lg"
   />
